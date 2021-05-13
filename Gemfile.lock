@@ -153,7 +153,8 @@ GEM
       css_parser (>= 1.6.0)
       htmlentities (>= 4.0.0)
     public_suffix (3.0.2)
-    puma (3.11.3)
+    puma (5.3.1)
+      nio4r (~> 2.0)
     rack (2.0.6)
     rack-custom-proxies (1.0.1)
       rack
@@ -246,7 +247,7 @@ DEPENDENCIES
   nifty-utils
   nilify_blanks
   premailer
-  puma
+  puma (>= 4.3.8)
   rack-custom-proxies
   rails (~> 5.1)
   rails_env_config
@@ -255,4 +256,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
