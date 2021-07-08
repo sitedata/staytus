@@ -24,7 +24,7 @@ gem 'florrick'
 gem 'delayed_job_active_record'
 gem 'foreman'
 gem 'redcarpet'
-gem 'premailer'
+gem 'premailer', '>= 1.11.1'
 gem 'rack-custom-proxies'
 gem 'log_logins'
 

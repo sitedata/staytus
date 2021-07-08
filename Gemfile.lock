@@ -46,8 +46,8 @@ GEM
       mail
       phony (~> 2.0)
       rake
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     annotate (2.6.7)
       activerecord (>= 2.3.0)
       rake (~> 10.4.2, >= 10.4.2)
@@ -75,7 +75,7 @@ GEM
     credit_card_validations (3.4.0)
       activemodel (>= 3, <= 6)
       activesupport (>= 3, <= 6)
-    css_parser (1.6.0)
+    css_parser (1.9.0)
       addressable
     date_validator (0.9.0)
       activemodel
@@ -148,11 +148,11 @@ GEM
       mini_portile2 (~> 2.4.0)
     numerizer (0.1.1)
     phony (2.16.3)
-    premailer (1.11.1)
+    premailer (1.15.0)
       addressable
       css_parser (>= 1.6.0)
       htmlentities (>= 4.0.0)
-    public_suffix (3.0.2)
+    public_suffix (4.0.6)
     puma (3.11.3)
     rack (2.0.6)
     rack-custom-proxies (1.0.1)
@@ -245,7 +245,7 @@ DEPENDENCIES
   nifty-attachments
   nifty-utils
   nilify_blanks
-  premailer
+  premailer (>= 1.11.1)
   puma
   rack-custom-proxies
   rails (~> 5.1)
@@ -255,4 +255,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
